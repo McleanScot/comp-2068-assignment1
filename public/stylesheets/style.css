@@ -6,3 +6,18 @@ body {
 a {
   color: #00B7FF;
 }
+#row1{
+  width: 49%;
+  border-style: solid;
+  border-color: #333;
+  margin: 2px;
+}
+#row2{
+  text-align: center;
+}
+
+#footer{
+  background-color: lightgray;
+  padding: 1%;
+  margin: 1%;
+}
