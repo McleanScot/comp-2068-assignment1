@@ -1,4 +1,29 @@
 <% include ./partials/header.ejs %>
-    <h1>Contact me at: </h1>
-      <p>this will soon have a contact me page</p>
+    <h1>Send Me an Email: </h1>
+    <html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width"
+	</head>
+	<body>
+		<main>
+            <form id="edit_payment_info" method="get" action="process-form.php">
+                <input type="hidden" name="form_sent" value="1" />
+                <div >
+                    <label for="name">Name:</label>
+                    <input id="label" type="name" name="name" placeholder="Rich Freeman"/>
+                </div>
+                    <div >
+                        <label for="email">Emai:l</label>
+                        <input id="label" type="email" name="email" placeholder="scot@scot.com" />
+                    </div>
+                    <div>
+                        <label for="message">Short Message:</label>
+                        <input id="message" type="message" name="message" />
+                    </div>
+                    <a href="/processing">Send!</a>
+            </form>
+        </main>
+	</body>
+</html>
 <% include ./partials/footer.ejs %>

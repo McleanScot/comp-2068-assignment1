@@ -1,6 +1,7 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "Serrif Italian", Helvetica, Arial, sans-serif, Lucida;
+  color: white;
 }
 
 a {
@@ -8,16 +9,47 @@ a {
 }
 #row1{
   width: 49%;
-  border-style: solid;
-  border-color: #333;
   margin: 2px;
 }
 #row2{
   text-align: center;
+}
+#row2 img{
+  height: 300px;
 }
 
 #footer{
   background-color: lightgray;
   padding: 1%;
   margin: 1%;
+  color: black;
+}
+#footer img{
+  height: 30px;
+}
+#image{
+  align-items: center;
+}
+#p{
+  padding-bottom: 10%;
+}
+#p2{
+  padding-bottom: -9.8%;
+}
+#body{
+   background-image: url("/images/background.jpg");
+}
+#label{
+  color: black;
+}
+#button{
+  color: black;
+}
+#buffering{
+  height: 100px;
+  align-items: center;
+  padding: 0 50%;
+}
+#prow{
+  text-align: center;
 }

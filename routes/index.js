@@ -19,7 +19,9 @@ router.get('/services', function(req, res, next) {
 });
 router.get('/contactme', function(req, res, next) {
   res.render('contactme');
-
-  });
+});
+router.get('/processing', function(req, res, next) {
+  res.render('processing');
+});
 
 module.exports = router;
